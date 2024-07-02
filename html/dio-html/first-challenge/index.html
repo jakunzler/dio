@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="top">Resumo das aulas do Módulo I</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#first-section">Aula 01</a></li>
+        <li><a href="#second-section">Aula 02</a></li>
+        <li><a href="#third-section">Desafio</a></li>
+        <li><a href="#last-section">Referências</a></li>
+    </ul>
+
+    <h2 id="first-section">Aula 1 - Entendendo Comunicação Cliente-Servidor</h2>
+    <a href="#top">(Voltar)</a>
+    
+    <h3>Entendendo Comunicação Cliente-Servidor na Web</h3>
+
+    <p>A história da World Wide Web, comumente conhecida como Web, é uma jornada fascinante que nos leva ao coração da comunicação cliente-servidor, um conceito essencial que impulsiona a internet moderna. Para compreender plenamente essa dinâmica, é necessário desvendar o papel dos clientes, dos servidores e das linguagens de programação no contexto da Web.</p>
+
+    <h3>História da Web</h3>
+
+    <p>A história da Web remonta ao final da década de 1980, quando um cientista chamado Tim Berners-Lee desenvolveu um sistema para compartilhar informações entre cientistas em uma organização de pesquisa. Ele introduziu o conceito de hipertexto, que permitia que documentos contivessem links para outros documentos, criando assim uma teia de informações interconectadas. Isso deu origem ao World Wide Web, que foi lançado publicamente em 1991.</p>
+
+    <p>Essa inovação revolucionou a forma como as informações eram acessadas e compartilhadas, e a Web rapidamente se tornou uma parte fundamental da vida cotidiana em todo o mundo. No entanto, o cerne dessa revolução é a comunicação cliente-servidor.</p>
+
+    <h3>O que são Clients?</h3>
+
+    <p>Os "clientes" na comunicação cliente-servidor são dispositivos, aplicativos ou programas que solicitam recursos ou serviços de um servidor. Por exemplo, quando você abre um navegador da Web e digita um endereço, como "www.example.com", o navegador atua como um cliente. Ele envia uma solicitação para o servidor que hospeda o site "example.com", pedindo que envie os recursos associados à página da web.</p>
+
+    <p>Os clientes podem variar amplamente, desde navegadores da Web e aplicativos móveis até dispositivos IoT (Internet das Coisas) e até mesmo outros servidores que solicitam recursos de um servidor principal. Eles desempenham um papel fundamental na maneira como interagimos com a Web e acessamos informações online.</p>
+
+    <h3>O que são Servers?</h3>
+
+    <p>Os "servidores" são máquinas ou programas que respondem às solicitações dos clientes, fornecendo recursos ou serviços. Quando você solicita uma página da web, um servidor web recebe essa solicitação, processa-a e envia os dados necessários de volta ao seu navegador. Os servidores podem hospedar sites, armazenar bancos de dados, fornecer serviços de e-mail e realizar muitas outras funções na Web.</p>
+
+    <p>Servidores são projetados para serem sempre ativos e acessíveis, garantindo que os clientes possam acessar as informações ou serviços de que precisam a qualquer momento. Eles desempenham um papel crucial na infraestrutura da internet, mantendo a integridade e a disponibilidade dos dados.</p>
+
+    <h3>Linguagens de Programação no Contexto Web</h3>
+
+    <p>A Web é um ambiente dinâmico e em constante evolução, e as linguagens de programação desempenham um papel vital na criação de aplicativos e serviços web. Diversas linguagens de programação são usadas para desenvolver aplicativos cliente e servidor. Alguns exemplos incluem:</p>
+
+    <ul>
+        <li><strong>HTML e CSS:</strong> Linguagens essenciais para a criação de páginas da web. HTML (HyperText Markup Language) é usado para estruturar o conteúdo, enquanto o CSS (Cascading Style Sheets) é usado para estilizar e formatar as páginas.</li>
+
+        <li><strong>JavaScript:</strong> Uma linguagem de programação que permite a interatividade em páginas da web. Ela é frequentemente usada para criar aplicativos web dinâmicos e responsivos.</li>
+
+        <li><strong>Python, Ruby, PHP e outros:</strong> Linguagens de programação frequentemente usadas no desenvolvimento de servidores web e aplicativos de back-end. Elas ajudam a processar solicitações dos clientes e a fornecer recursos dinâmicos.</li>
+
+        <li><strong>Java, C#, e outras:</strong> Linguagens usadas em aplicações de grande escala e em sistemas que requerem alto desempenho e segurança.</li>
+    </ul>
+
+    <p>Em resumo, a comunicação cliente-servidor é o alicerce da Web e da internet como a conhecemos hoje. Clientes solicitam informações e serviços, enquanto servidores respondem a essas solicitações, tornando possível a experiência de navegar na web e usar aplicativos online. Linguagens de programação desempenham um papel fundamental na criação desses clientes e servidores, capacitando desenvolvedores a criar experiências web ricas e dinâmicas. Assim, compreender a dinâmica entre clientes, servidores e linguagens de programação é essencial para explorar plenamente o mundo da Web e suas infinitas possibilidades.</p>
+
+    <h2 id="second-section">Aula 2 - Introdução ao HTML na Prática</h2>
+    <a href="#top">(Voltar)</a>
+
+    <h3>Desenvolvimento de Páginas Web: Conceitos Fundamentais</h3>
+
+    <p>O desenvolvimento de páginas web envolve uma série de conceitos e ferramentas essenciais para criar sites e aplicativos web modernos. Neste texto, exploraremos os principais elementos desse processo, desde as ferramentas de desenvolvimento até os conceitos básicos do HTML, tags, atributos, listas e links.</p>
+
+    <ol>
+        <li><mark>Ferramentas de Desenvolvimento: Visual Studio Code (VS Code)</mark></li>
+        <p>O Visual Studio Code, frequentemente abreviado como VS Code, é uma das ferramentas mais populares para desenvolver páginas web. É um editor de código-fonte gratuito e de código aberto desenvolvido pela Microsoft. O VS Code oferece suporte a uma ampla variedade de linguagens de programação, incluindo HTML, CSS e JavaScript, tornando-o ideal para o desenvolvimento web. Ele também possui uma extensa coleção de extensões que facilitam tarefas específicas de desenvolvimento, como depuração, controle de versão e integração com frameworks populares.</p>
+        <li><mark>Navegadores e Inspetor de Elementos</mark></li>
+        <p>Os navegadores web, como o Google Chrome, Mozilla Firefox e Microsoft Edge, são as plataformas nas quais os usuários acessam sites e aplicativos web. Os desenvolvedores web usam esses navegadores para testar e depurar seus projetos. Uma ferramenta crucial é o "Inspetor de Elementos", que permite examinar o código HTML, CSS e JavaScript de uma página, fazer alterações em tempo real e identificar problemas de renderização.</p>
+        <li><mark>Estrutura Básica do HTML</mark></li>
+        <p>O HTML (HyperText Markup Language) é a linguagem fundamental para estruturar o conteúdo de uma página web. A estrutura básica de um documento HTML inclui as seguintes partes:</p>
+        
+        <pre style="background-color: #e1e1e1;"><code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;Título da Página&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Título Principal&lt;/h1&gt;
+                    &lt;p&gt;Este é um parágrafo de texto.&lt;/p&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+            </code>
+            </pre>
+
+        <ol>
+            <li>&lt;!DOCTYPE html&gt;: Define a versão do HTML usada (HTML5).</li>
+            <li>&lt;html&gt;: O elemento raiz que envolve todo o conteúdo da página.</li>
+            <li>&lt;head&gt;: Contém metadados, como o título da página.</li>
+            <li>&lt;title&gt;: Define o título da página que aparece na aba do navegador.</li>
+            <li>&lt;body&gt;: Contém o conteúdo visível da página.</li>
+        </ol>
+
+        <li><mark>Principais Tags HTML</mark></li>
+        <ul>
+            <li>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, ... &lt;h6&gt;: São usados para definir cabeçalhos de diferentes níveis de importância.</li>
+            <li>&lt;p&gt;: Cria parágrafos de texto.</li>
+            <li>&lt;a&gt;: Define links para outras páginas.</li>
+            <li>&lt;ul&gt; e &lt;ol&gt;: Criam listas não ordenadas e ordenadas, respectivamente.</li>
+            <li>&lt;li&gt;: Define os itens da lista.</li>
+        </ul>
+        <li><mark>Atributos em Tags HTML</mark></li>
+        <p>As tags HTML frequentemente usam atributos para fornecer informações adicionais. Por exemplo, o atributo `href` em uma tag &lt;a&gt; especifica o destino do link. Atributos podem ser usados para controlar a aparência, comportamento e funcionalidade de elementos HTML.</p>
+        <li><mark>Listas e Links</mark></li>
+        <ol>
+            <li>As listas &lt;ul&gt; (não ordenadas) e &lt;ol&gt; (ordenadas) são usadas para criar itens de lista.</li>
+            <li>Em listas não ordenadas, cada item é precedido por um marcador, como um ponto.</li>
+            <li>Em listas ordenadas, cada item é numerado automaticamente.</li>
+            <li>Os links &lt;a&gt; permitem que os usuários naveguem entre páginas ou acessem recursos externos. O atributo `href` especifica o URL de destino.</li>
+        </ol>
+    </ol>
+
+    <p>Em resumo, o desenvolvimento de páginas web envolve o uso de ferramentas como o Visual Studio Code e navegadores, juntamente com a compreensão dos conceitos básicos do HTML, tags, atributos, listas e links. Essas são as bases necessárias para criar sites e aplicativos web atraentes e funcionais. Conhecer esses conceitos é o primeiro passo para se tornar um desenvolvedor web competente e eficaz.</p>
+
+    
+    <h2 id="third-section">Desafio - Uso recomendado para as tags</h2>
+    <a href="#top">(Voltar)</a>
+    
+    <p><mark>Este é um texto destacado.</mark></p>
+    <p><small>Este é um texto em tamanho pequeno.</small></p>
+    <p><i>Este é um texto em itálico.</i></p>
+    <p><u>Este é um texto sublinhado.</u></p>
+    <p><strong>Este é um texto em negrito.</strong></p>
+
+    <h3>Subtítulo 2</h3>
+    <ul>
+        <li>Item da lista não ordenada 1</li>
+        <li>Item da lista não ordenada 2</li>
+        <li>Item da lista não ordenada 3</li>
+    </ul>
+
+    <h4>Subtítulo 3</h4>
+    <ol>
+        <li>Item da lista ordenada 1</li>
+        <li>Item da lista ordenada 2</li>
+        <li>Item da lista ordenada 3</li>
+    </ol>
+
+    <h5>Subtítulo 4</h5>
+    <a href="https://www.example.com">Isso é um link</a>
+
+    <h6>Subtítulo 5</h6>
+    <hr>
+
+    <p>Este é um <sub>texto subscrito</sub></p>
+    <p>Este é um <sup>texto sobrescrito</sup></p>
+    <blockquote>Este é um bloco de citação.</blockquote>
+    
+    <del>Este texto foi deletado.</del>
+    <p>Esta é uma abreviação: <abbr title="Exemplo">BR</abbr></p>
+    
+    <h2 id="last-section">Links de referências</h2>
+    <a href="#top">(Voltar)</a>
+    <ul>
+        <li><a href="http://dio.me" target="_blank">DIO</a></li>
+        <li><a href="http://w3c.org" target="_blank">W3C</a></li>
+        <li><a href="https://pt.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN</a></li>
+    </ul>
+
+</body>
+</html>
