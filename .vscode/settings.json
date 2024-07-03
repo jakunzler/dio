@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    ".editorconfig": "typescript",
+    "ostream": "cpp"
+  }
+}
