@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Funções para operações aritméticas básicas e de programador
+/* Funções para operações aritméticas básicas e de programador */
 float adicionar(float a, float b);
 float subtrair(float a, float b);
 float multiplicar(float a, float b);

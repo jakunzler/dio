@@ -35,7 +35,7 @@ int main() {
 
     printf("End of the program\n");
 
-    /* wait for the user to press the ESC key */
+    /* wait for the user to press the q key */
     printf("Press 'q' key and Enter to exit\n");
     while (1) {
         int ch = getchar();

@@ -14,32 +14,32 @@ int main() {
     printf("Hello, World!\n");
     printf("This is the first C program made by Jonas Augusto Kunzler in this course.\n");
 
-    /* ask for user input */
+    // ask for user input
     printf("Enter two numbers!\n");
     printf("a: ");
     scanf("%d", &a);
     printf("b: ");
     scanf("%d", &b);
 
-    /* print the sum */
+    // print the sum
     printf("Sum: %d\n", sum(a, b));
 
-    /* print the subtraction */
+    // print the subtraction
     printf("Subtraction: %d\n", subtract(a, b));
 
-    /* print the multiplication */
+    // print the multiplication
     printf("Multiplication: %d\n", multiply(a, b));
 
-    /* print the division */
+    // print the division
     printf("Division: %d\n", divide(a, b));
 
     printf("End of the program\n");
 
-    /* wait for the user to press the ESC key */
+    // wait for the user to press the ESC key
     printf("Press 'q' key and Enter to exit\n");
     while (1) {
         int ch = getchar();
-        if (ch == 113) { /* Enter key */
+        if (ch == 113) { // Enter key
             break;
         }
     }
