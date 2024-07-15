@@ -1,3 +1,10 @@
+/*
+  Nome do programa: desafio01.c
+  Objetivo do programa: Verificar se um robô está próximo ou longe.
+  Autor: Jonas Augusto Kunzler
+  Data de criação: 11/07/2024
+*/
+
 #include <stdio.h>
 
 char* verificaDistancia(int distancia) {

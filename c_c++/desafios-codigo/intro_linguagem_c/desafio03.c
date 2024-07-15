@@ -1,3 +1,10 @@
+/*
+  Nome do programa: desafio01.c
+  Objetivo do programa: Repetir cada palavra de uma frase informada pelo usuário.
+  Autor: Jonas Augusto Kunzler
+  Data de criação: 11/07/2024
+*/
+
 #include <stdio.h>
 #include <string.h>
 

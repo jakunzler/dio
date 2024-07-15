@@ -1,3 +1,10 @@
+/*
+  Nome do programa: desafio01.c
+  Objetivo do programa: Calcular o tempo que um robô de limpeza levará para limpar uma sala.
+  Autor: Jonas Augusto Kunzler
+  Data de criação: 11/07/2024
+*/
+
 #include <stdio.h>
 #include <math.h>
 

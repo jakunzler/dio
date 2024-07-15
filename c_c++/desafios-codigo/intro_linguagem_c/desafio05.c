@@ -1,3 +1,10 @@
+/*
+  Nome do programa: desafio01.c
+  Objetivo do programa: Classificar números positivos e negativos.
+  Autor: Jonas Augusto Kunzler
+  Data de criação: 11/07/2024
+*/
+
 #include <stdio.h>
 
 void classificarNumero(int numero, int *positivos, int *negativos) {

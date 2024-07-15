@@ -1,3 +1,10 @@
+/*
+  Nome do programa: desafio02.c
+  Objetivo do programa: Classificar um animal de acordo com suas características.
+  Autor: Jonas Augusto Kunzler
+  Data de criação: 11/07/2024
+*/
+
 #include <stdio.h>
 
 int main() {
