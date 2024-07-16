@@ -1,8 +1,8 @@
 /*
   Nome do programa: desafio02.c
-  Objetivo do programa: Calcular a média de veículos por hora.
+  Objetivo do programa: Receber a quantidade de robôs e as posições de cada robô e retornar o robô que percorreu a maior distância.
   Autor: Jonas Augusto Kunzler
-  Data de criação: 15/07/2024
+  Data de criação: 16/07/2024
 */
 
 #include <stdio.h>  /* Biblioteca padrão de entrada e saída */
@@ -19,43 +19,62 @@ int main() {
     int *posicoesDosRobos;
 
     scanf("%d", &N);
+    if (N < 1 || N > 10) {
+        printf("Número de robôs inválido.\n");
+        return 0;
+    }
 
     posicoesDosRobos = (int *) malloc(N * sizeof(int));
     if (posicoesDosRobos == NULL) {
         printf("Erro de alocação de memória.\n");
-        return 1;
+        return 0;
     }
 
     for (i = 0; i < N; i++) {
       scanf("%d", &posicoesDosRobos[i]);
     }
 
+    /*
+    printf("Posições dos robôs: ");
+    for (i = 0; i < N; i++){
+      printf("%d; ", posicoesDosRobos[i]);
+    }
+    printf("\n");
+    */
+
     resultado = maiorDistancia(N, posicoesDosRobos);
-    printf("%d\n", resultado);
+    printf("O robô que percorreu a maior distância é o robô %d\n", resultado);
 
     return 0;
 }
 
 /*
   Nome da função: maiorDistancia
-  Objetivo: 
-  Parâmetros: tamanho (int) - tamanho do vetor de veículos, veiculos (int[]) - vetor de veículos por hora.
-  Retorno: int - média de veículos por hora.
+  Objetivo: Receber a quantidade de robôs e as posições de cada robô e retornar o robô que percorreu a maior distância.
+  Parâmetros: int tamanho - quantidade de robôs, int posicoesDosRobos[] - posições de cada robô.
+  Retorno: int - índice do robô que percorreu a maior distância.
 */
 int maiorDistancia(int tamanho, int posicoesDosRobos[]) {
-    int maiorDistancia = 0;
+    /* int maiorDistancia = 0; */
     int indice = 0;
-    int i, j, distancia;
+    int i, j;
 
     for ( i = 0; i < tamanho; i++) {
         for ( j = i + 1; j < tamanho; j++) {
-            distancia = abs(posicoesDosRobos[i] - posicoesDosRobos[j]);
-            if (distancia > maiorDistancia) {
-                maiorDistancia = distancia;
+            if (posicoesDosRobos[i] == posicoesDosRobos[j]) {
+                /* maiorDistancia = posicoesDosRobos[i]; */
                 indice = i;
+            } else if (posicoesDosRobos[i] > posicoesDosRobos[j]) {
+                /* maiorDistancia = posicoesDosRobos[i]; */
+                indice = i;
+            } else {
+                /* maiorDistancia = posicoesDosRobos[j]; */
+                indice = j;
             }
         }
     }
 
-    return indice;
+    /* printf("Maior distância: %d\n", maiorDistancia); */
+
+    return ++indice;
 }
