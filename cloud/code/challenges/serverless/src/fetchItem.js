@@ -12,7 +12,7 @@ const fetchItem = async (event) => {
 
     try {
         const result = await dynamodb.get({
-            TableName: "test-db",
+            TableName: "kunzler-dio-db",
             Key: { test_id: id }
         }).promise();
 

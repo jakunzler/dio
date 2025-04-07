@@ -9,7 +9,7 @@ const deleteItem = async (event) => {
   const dynamodb = new AWS.DynamoDB.DocumentClient();
 
   await dynamodb.delete({
-    TableName: "test-db",
+    TableName: "kunzler-dio-db",
     Key: {
       test_id: id
     }

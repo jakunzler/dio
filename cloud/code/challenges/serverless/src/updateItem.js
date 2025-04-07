@@ -11,7 +11,7 @@ const updateItem = async (event) => {
   const dynamodb = new AWS.DynamoDB.DocumentClient();
 
   await dynamodb.update({
-    TableName: "test-db",
+    TableName: "kunzler-dio-db",
     Key: { test_id: id },
     UpdateExpression: 'set itemStatus = :itemStatus, itemName = :itemName, qtd = :qtd, updatedAt = :updatedAt, color = :color',
     ExpressionAttributeValues: {

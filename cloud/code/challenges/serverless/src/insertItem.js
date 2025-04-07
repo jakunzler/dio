@@ -23,7 +23,7 @@ const insertItem = async (event) => {
   }
 
   await dynamodb.put({
-    TableName: "test-db",
+    TableName: "kunzler-dio-db",
     Item: newItem
   }).promise()
 
