@@ -1,0 +1,6 @@
+{
+  "body": "{\"itemName\": \"Updated Item\", \"itemStatus\": \"sold out\",\"qtd\": \"1.99\", \"color\": \"blue\"}",
+  "pathParameters": {
+    "id": ""
+  }
+}
