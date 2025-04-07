@@ -1,0 +1,16 @@
+{
+  "name": "second-interaction",
+  "version": "1.0.0",
+  "description": "Example of a Python Flask API service with traditional Serverless Framework",
+  "author": "Jonas Augusto Kunzler",
+  "devDependencies": {
+    "serverless-python-requirements": "^6.1.2",
+    "serverless-wsgi": "^3.0.4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
