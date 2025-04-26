@@ -318,6 +318,57 @@ sudo ufw status
 
 ### ⏰ 6. Schedule Auto Updates with Cron
 
+Para ver o horário atual do sistema em Linux, use:
+Command to check current time:
+
+```bash
+date
+```
+
+Command to check current time in UTC:
+
+```bash
+date -u
+```
+
+Command to check current time in ISO 8601 format:
+
+```bash
+date --iso-8601
+```
+
+Command to check current time in RFC 2822 format:
+
+```bash
+date --rfc-2822
+```
+
+Command to check current time in Unix timestamp format:
+
+```bash
+date +%s
+```
+
+Command to check current time in custom format:
+
+```bash
+date +"%Y-%m-%d %H:%M:%S"
+```
+
+Command to check current time in custom format with timezone:
+
+```bash
+date +"%Y-%m-%d %H:%M:%S %Z"
+```
+
+Command to check current time in custom format with timezone offset:
+
+```bash
+timedatectl
+timedatectl show --property=Timezone --value
+timedatectl show --property=RTCTimeUSec --value
+```
+
 Edit crontab:
 
 ```bash
